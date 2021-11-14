@@ -25,8 +25,8 @@ INSTA_ID = user.getInstaID()
 INSTA_PW = user.getInstaPW()
 CAMP_ID = user.getCampID()
 CAMP_PW = user.getCampPW()
-# "fn_cafeCreateCheck('15','김건우','2021.07.05','20001222','0000140001','20020191700','0000010001')"
-FINDING_CAFE_SCRIPT = "fn_cafeCreateCheck('13','이종준','2021.07.27','20000702','0000140002','20220280100','0000010001')"
+# "fn_cafeCreateCheck('number','이름','입영일자','생년월일','number','number','number')" 형식의 정보를 직접! 더캠프 홈페이지에서 찾으셔야 합니다...!!
+FINDING_CAFE_SCRIPT = "fn_cafeCreateCheck()"
 INSTA_URL = "https://www.instagram.com/?hl=ko"
 CAMP_URL = "https://www.thecamp.or.kr/eduUnitCafe/viewEduUnitCafeMain.do"
 
@@ -107,7 +107,8 @@ upload_button = driver.find_element_by_xpath(
     '//div[@data-testid="new-post-button"]')
 upload_button.click()
 time.sleep(3)
-send_keys('C:\\Users\\ljjun\\project_oikk\\WebProject\\frontend\\InstagramBot_2.0\\assets\\soldier_info.jpg')
+# 인스타에 게시할 사진 경로(절대경로)를 작성해주세요!
+send_keys('C:\\Users\\ljjun\\soldier_info.jpg')
 time.sleep(1)
 send_keys('{VK_RETURN}')
 time.sleep(3)
