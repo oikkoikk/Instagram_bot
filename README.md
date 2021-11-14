@@ -15,7 +15,9 @@
 **(인스타에 게시할 사진(```soldier_info.jpg```) 및 문구(```posting_texts.txt```)도 마찬가지입니다!)**
 
 또한, ```main.py```에서는 게시물 사진의 절대경로를, ```script.bat```에서는 작업폴더의 경로를 올바르게 수정해주셔야 합니다 :)
-```python:userInfo.py
+
+```python
+#userInfo.py
 class User:
     def __init__(self):
         self.__insta_email = "blahblah@naver.com"
@@ -24,6 +26,18 @@ class User:
         self.__camp_id = "blahblah@naver.com"
         self.__camp_password = "1234"
 ```
+```python
+#main.py
+# 인스타에 게시할 사진 경로(절대경로)를 작성해주세요!
+send_keys('C:\\Users\\ljjun\\Instagram_bot\\soldier_info.jpg')
+```
+```bat
+rem script.bat
+@echo off
+
+cd C:\Users\ljjun\Instagram_bot
+```
+
 #### 준비사항 (Prerequisites)
 - **훈련병의 인스타 ID/PW, 더캠프 ID/PW**
 - 훈련병의 인스타에 게시할 사진 및 문구
