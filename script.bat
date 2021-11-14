@@ -1,6 +1,6 @@
 @echo off
 
-cd C:\Users\ljjun\project_oikk\WebProject\frontend\InstagramBot_2.0
+cd C:\Users\ljjun\Instagram_bot
 
 IF NOT EXIST mission_clear.txt (
   python ./src/main.py
