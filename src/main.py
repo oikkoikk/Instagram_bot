@@ -108,7 +108,7 @@ upload_button = driver.find_element_by_xpath(
 upload_button.click()
 time.sleep(3)
 # 인스타에 게시할 사진 경로(절대경로)를 작성해주세요!
-send_keys('C:\\Users\\ljjun\\soldier_info.jpg')
+send_keys('C:\\Users\\ljjun\\Instagram_bot\\soldier_info.jpg')
 time.sleep(1)
 send_keys('{VK_RETURN}')
 time.sleep(3)
