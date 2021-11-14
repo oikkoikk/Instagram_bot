@@ -25,7 +25,7 @@ INSTA_ID = user.getInstaID()
 INSTA_PW = user.getInstaPW()
 CAMP_ID = user.getCampID()
 CAMP_PW = user.getCampPW()
-# "fn_cafeCreateCheck('number','이름','입영일자','생년월일','number','number','number')" 형식의 정보를 직접! 더캠프 홈페이지에서 찾으셔야 합니다...!!
+# "fn_cafeCreateCheck('{any}','이름','입영일자','생년월일','{any}','{any}','{any}')" 형식의 정보를 직접! 더캠프 홈페이지에서 찾으셔야 합니다...!!
 FINDING_CAFE_SCRIPT = "fn_cafeCreateCheck()"
 INSTA_URL = "https://www.instagram.com/?hl=ko"
 CAMP_URL = "https://www.thecamp.or.kr/eduUnitCafe/viewEduUnitCafeMain.do"
