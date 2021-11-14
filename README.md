@@ -13,6 +13,8 @@
 ```userInfo.py```에서 인스타 ID/PW, 더캠프 ID/PW를 직접 설정해주셔야 합니다!
 
 **(인스타에 게시할 사진(```soldier_info.jpg```) 및 문구(```posting_texts.txt```)도 마찬가지입니다!)**
+
+또한, ```main.py```에서는 게시물 사진의 절대경로를, ```script.bat```에서는 작업폴더의 경로를 올바르게 수정해주셔야 합니다 :)
 ```python:userInfo.py
 class User:
     def __init__(self):
