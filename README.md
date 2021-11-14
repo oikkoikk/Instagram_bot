@@ -3,7 +3,7 @@
 ## 훈련병 이종준을 위한 인스타그램 인편지기입니다.
 > Instagram bot for promoting ROKA trainee soldier(just like me)'s consolation letters.
 
-![result screenshot](../Instagram_bot/assets/result.jpg)
+![result screenshot](./assets/result.jpg)
 
 ### 들어가기 (Getting Started)
 이 레포지토리는 **윈도우 환경**에 맞춰 제작되었습니다.
