@@ -92,4 +92,4 @@ pip install pywinauto
     <img src="https://user-images.githubusercontent.com/63336701/225351346-a3f585d2-253d-496c-b91c-0cfc1b2741cb.png">
 </p>
 
-압축해제한 ```Chromedriver.exe``` 파일을 본인의 ```파이썬 경로(디렉토리)```로 옮겨주세요!
+압축해제한 ```Chromedriver.exe``` 파일을 본인의 ```파이썬 경로(디렉토리)```로 옮겨주세요!d
