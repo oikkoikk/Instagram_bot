@@ -2,10 +2,11 @@
 
 ## (필자를 포함한) 모든 대한민국 훈련병들을 위한 인스타그램 인편지기입니다.
 > Instagram bot for promoting ROKA trainee soldier(just like me)'s consolation letters.
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/63336701/225343958-18730305-a22b-450e-bff2-af80af4c716c.jpg" width="350">
+</p>
 
-<p align="center"><img src="./assets/result.jpg" width="350"></p>
-
-### 들어가기 (Getting Started)
+## 1. 들어가기 (Getting Started)
 이 레포지토리는 **윈도우 환경**에 맞춰 제작되었습니다.
 **윈도우 작업 스케줄러**에서 ```script.bat``` 파일을 실행시키는 방식으로 제작되었다는 점을 알립니다.
 
@@ -38,7 +39,7 @@ rem script.bat
 
 cd C:\Users\ljjun\Instagram_bot
 ```
-#### 더캠프(THE CAMP) 설정
+### 1-1. 더캠프(THE CAMP) 설정
 훈련병의 인편 카페 개설 여부를 확인하기 위해, 더캠프에서 몇 가지 사항을 체크 및 설정해주셔야 합니다.
 
 1. 보고싶은 군인 추가
@@ -46,8 +47,9 @@ cd C:\Users\ljjun\Instagram_bot
   
 2. fn_cafeCreateCheck() 검색
    - 보고싶은 군인을 등록한 후, 개발자 모드(f12)에 진입하여 **훈련병의 카페 개설 여부를 확인**하는 fn_cafeCreateCheck()함수 및 parameter를 확인한 후, ```main.py```에 올바르게 변경해주시면 됩니다!
-  
-  <p align="center"><img src="./assets/camp_cafeCreateCheck.png"></p>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/63336701/225344301-2cf528f9-1c01-4c3b-85ea-cadeff31ee4b.png">
+</p>
 
   ```python
   #main.py
@@ -55,9 +57,39 @@ cd C:\Users\ljjun\Instagram_bot
 FINDING_CAFE_SCRIPT = "fn_cafeCreateCheck('', '이름', '입영일자', '생년월일', '', '', '')"
   ```
 
-#### 준비사항 (Prerequisites)
+### 1-2. 준비사항 (Prerequisites)
 - **훈련병의 인스타 ID/PW, 더캠프 ID/PW**
 - 훈련병의 인스타에 게시할 사진 및 문구
 - python3
+- Chrome
 - selenium
 - pywinauto
+
+```python
+# 라이브러리 설치
+pip install selenium
+pip install pywinauto
+```
+
+### 1-3. Chromedriver 설치
+
+#### 1) 크롬 버전 확인
+```도움말``` -> ```Chrome 정보``` 클릭
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/63336701/225347552-125b2845-c40c-440a-ac98-86b0d3c02ca8.png">
+</p>
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/63336701/225347568-f79ebedf-2a45-41c7-86b9-b891fa85af4f.png">
+</p>
+
+#### 2) ChromeDriver 설치 및 경로 지정
+[ChromeDriver - WebDriver for Chrome](https://chromedriver.chromium.org/downloads)
+
+위 사이트에 접속하여 ```Current Releases```에서 ```본인의 크롬 버전 및 OS에 해당하는 ChromeDriver```를 설치해주세요
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/63336701/225351346-a3f585d2-253d-496c-b91c-0cfc1b2741cb.png">
+</p>
+
+압축해제한 ```Chromedriver.exe``` 파일을 본인의 ```파이썬 경로(디렉토리)```로 옮겨주세요!
