@@ -1,7 +1,7 @@
 # Instagram_bot
 
-## (필자를 포함한) 모든 대한민국 훈련병들을 위한 인스타그램 인편지기입니다.
-> Instagram bot for promoting ROKA trainee soldier(just like me)'s consolation letters.
+## 모든 대한민국 훈련병들을 위한 인스타그램 인편지기입니다.
+> Instagram bot for promoting ROKA trainee soldier's e-letters.
 <p align="center">
     <img src="https://user-images.githubusercontent.com/63336701/225343958-18730305-a22b-450e-bff2-af80af4c716c.jpg" width="350">
 </p>
